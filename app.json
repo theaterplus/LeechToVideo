@@ -14,9 +14,9 @@
     "youtube-dl",
     "leecher"
   ],
-  "repository": "https://github.com/prgofficial/LeechToStream",
-  "success_url": "https://github.com/SpEcHiDe/PublicLeech",
-  "website": "https://github.com/prgofficial/LeechToStream",
+  "repository": "https://github.com/No-OnE-Kn0wS-Me/LeechToVideo",
+  "success_url": "https://t.me/leeching_group",
+  "website": "https://github.com/No-OnE-Kn0wS-Me",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -70,11 +70,11 @@
       "required": false
     },
     "LEECH_COMMAND": {
-      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "description": "Enter your custom leech command like /leech@urbotusername and so on. Default is /leech",
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "description": "Enter your custom ytdl command like /ytdl@urbotusername and so on. Default is /ytdl.",
       "required": false
     },
     "DESTINATION_FOLDER": {
