@@ -32,15 +32,6 @@ async def new_join_f(client, message):
     await message.delete(revoke=True)
 
 
-async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
-    #channel_id = str(AUTH_CHANNEL)[4:]
-    #message_id = 99
-    # display the /help
-    
-    await message.reply_text("""No one gonna HELP here!! Leech if you KNOW :) </a>""", disable_web_page_preview=True)
-
-
 async def rename_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
@@ -52,6 +43,20 @@ async def rename_message_f(client, message):
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
         "please use @renamebot",
+        quote=True,
+        reply_markup=reply_markup
+    )
+async def help_message_f(client, message):
+    inline_keyboard = []
+    inline_keyboard.append([
+        pyrogram.InlineKeyboardButton(
+            text="Support Channel",
+            url="https://t.me/Mai_bOTs"
+        )
+    ])
+    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+    await message.reply_text(
+        "Check [Pinned Message](https://t.me/Torrent_leeching/109) For Any Help",
         quote=True,
         reply_markup=reply_markup
     )
