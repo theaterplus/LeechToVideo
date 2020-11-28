@@ -14,9 +14,9 @@
     "youtube-dl",
     "leecher"
   ],
-  "repository": "https://github.com/No-OnE-Kn0wS-Me/LeechToVideo",
+  "repository": "https://github.com/theaterplus/LeechToVideo",
   "success_url": "https://t.me/leeching_group",
-  "website": "https://github.com/No-OnE-Kn0wS-Me",
+  "website": "https://github.com/theaterplus",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
